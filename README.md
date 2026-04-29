@@ -165,3 +165,87 @@ customer-retention-cohort-rfm-olist/
 │ 
 │
 └── README.md
+
+## Tools Used
+- **Python**
+- **pandas**
+- **Google Colab**
+- **Power BI**
+
+---
+
+## Method Summary
+
+### Notebook 01 — Data Prep
+Built a clean order-level fact table by:
+- loading raw Olist transactional data
+- calculating order-level revenue
+- mapping customer IDs to unique customers
+- exporting curated analytical tables
+
+### Notebook 02 — Cohort Retention
+Measured month-by-month repeat purchase activity by:
+- identifying each customer’s first purchase month
+- assigning customers to cohorts
+- calculating active customers and retention rate per month index
+
+### Notebook 03 — RFM Segmentation
+Segmented customers by:
+- recency
+- frequency
+- monetary value
+
+Then assigned CRM-friendly segment labels and created summary tables for dashboarding.
+
+---
+
+## Dashboard Overview
+
+### Cohort Retention Page
+- customer retention heatmap by cohort month
+- month-by-month repeat purchase view
+
+### RFM Segmentation Page
+- total customers
+- total revenue
+- top revenue segment
+- customers by segment
+- revenue by segment
+- segment summary
+- recommended CRM actions
+
+---
+
+## How to Reproduce
+1. Download the Olist dataset from Kaggle
+2. Place the CSV files in the expected data directory
+3. Run the notebooks in order:
+   - `01_data_prep`
+   - `02_cohort_retention`
+   - `03_rfm_segmentation`
+4. Use the exported files in `/exports/`
+5. Open the Power BI file and refresh the data connections if needed
+
+---
+
+## Limitations
+This project is intended as a portfolio case study and has some limitations:
+
+- Cohort retention was measured as **month-by-month repeat purchase activity**, not cumulative retention
+- RFM thresholds were based on quantile scoring, which is practical but not industry-specific
+- No campaign execution or uplift testing was performed
+- Segment definitions were simplified for analytical clarity and dashboard communication
+
+---
+
+## Next Steps
+Possible future extensions include:
+
+- **Second Purchase Rate within 90 Days**
+- **Cumulative Repeat Purchase by Cohort**
+- category-level behavioral analysis
+- campaign prioritization framework
+- estimated reactivation opportunity sizing by segment
+
+---
+
