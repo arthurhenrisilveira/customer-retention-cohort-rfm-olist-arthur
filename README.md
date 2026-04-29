@@ -172,8 +172,6 @@ customer-retention-cohort-rfm-olist/
 - **Google Colab**
 - **Power BI**
 
----
-
 ## Method Summary
 
 ### Notebook 01 — Data Prep
