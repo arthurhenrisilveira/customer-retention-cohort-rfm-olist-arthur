@@ -4,7 +4,7 @@
 How can cohort retention analysis and RFM segmentation help identify CRM opportunities to improve repeat purchase behavior, prioritize reactivation, and support lifecycle decision-making?
 
 ## Project Overview
-This project explores customer retention and segmentation using the **Brazilian E-Commerce Public Dataset by Olist**.  
+This project explores customer retention and segmentation using the **Brazilian E-Commerce Public Dataset by Olist**.
 
 The analysis combines two complementary perspectives:
 
@@ -139,32 +139,31 @@ This suggests that the business opportunity may lie in:
 
 ## Repository Structure
 
-```bash
-customer-retention-cohort-rfm-olist/
-│
-├── notebooks/
-│   ├── 01_data_prep.ipynb
-│   ├── 02_cohort_retention.ipynb
-│   └── 03_rfm_segmentation.ipynb
-│
-├── exports/
-│   ├── orders_fact.csv
-│   ├── orders_fact_light.csv
-│   ├── cohort_retention_long.csv
-│   ├── cohort_retention_long_ptbr.csv
-│   ├── rfm_customers.csv
-│   ├── rfm_customers_ptbr.csv
-│   ├── rfm_segment_summary.csv
-│   └── rfm_segment_summary_ptbr.csv
-│
-├── powerbi/
-│   └── OlistDash.pbix
-│
-├── assets/
-│   ├── cohort_heatmap.png
-│   └── rfm_dashboard.png
-│
-└── README.md
+    customer-retention-cohort-rfm-olist/
+    │
+    ├── notebooks/
+    │   ├── 01_data_prep.ipynb
+    │   ├── 02_cohort_retention.ipynb
+    │   └── 03_rfm_segmentation.ipynb
+    │
+    ├── exports/
+    │   ├── orders_fact.csv
+    │   ├── orders_fact_light.csv
+    │   ├── cohort_retention_long.csv
+    │   ├── cohort_retention_long_ptbr.csv
+    │   ├── rfm_customers.csv
+    │   ├── rfm_customers_ptbr.csv
+    │   ├── rfm_segment_summary.csv
+    │   └── rfm_segment_summary_ptbr.csv
+    │
+    ├── powerbi/
+    │   └── OlistDash.pbix
+    │
+    ├── assets/
+    │   ├── cohort_heatmap.png
+    │   └── rfm_dashboard.png
+    │
+    └── README.md
 
 ---
 
@@ -253,6 +252,6 @@ Possible future extensions include:
 
 ## Author
 **Arthur Henrique Silveira Santos**  
-Analytics / CRM / Growth / Customer Insights  
+Analytics / CRM / Growth / Customer Insights
 
 GitHub: [arthurhenrisilveira](https://github.com/arthurhenrisilveira)
