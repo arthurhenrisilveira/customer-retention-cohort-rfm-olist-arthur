@@ -160,8 +160,8 @@ This suggests that the business opportunity may lie in:
     │   └── OlistDash.pbix
     │
     ├── assets/
-    │   ├── cohort_heatmap.png
-    │   └── rfm_dashboard.png
+    │   ├── OlistDash.pdf
+    │   
     │
     └── README.md
 
