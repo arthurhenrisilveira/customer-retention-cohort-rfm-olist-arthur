@@ -161,7 +161,7 @@ customer-retention-cohort-rfm-olist/
 │   └── OlistDash.pbix
 │
 ├── assets/
-│   ├── cohort_heatmap.png
-│   └── rfm_dashboard.png
+│   ├── Olist_dash_RFM.pdf
+│ 
 │
 └── README.md
