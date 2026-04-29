@@ -161,16 +161,20 @@ customer-retention-cohort-rfm-olist/
 │   └── OlistDash.pbix
 │
 ├── assets/
-│   ├── Olist_dash_RFM.pdf
-│ 
+│   ├── cohort_heatmap.png
+│   └── rfm_dashboard.png
 │
 └── README.md
+
+---
 
 ## Tools Used
 - **Python**
 - **pandas**
 - **Google Colab**
 - **Power BI**
+
+---
 
 ## Method Summary
 
@@ -247,3 +251,8 @@ Possible future extensions include:
 
 ---
 
+## Author
+**Arthur Henrique Silveira Santos**  
+Analytics / CRM / Growth / Customer Insights  
+
+GitHub: [arthurhenrisilveira](https://github.com/arthurhenrisilveira)
